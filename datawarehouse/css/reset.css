@@ -1,0 +1,362 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6fafd), to(#ffffff));
+  background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 100%);
+  height: 100vh;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 240px 0 240px;
+  width: 100%;
+}
+
+.wrapper .top {
+  display: inherit;
+  height: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .top__left {
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 492px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .top__left .logo {
+  display: inherit;
+}
+
+.wrapper .top__left nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+
+.wrapper .top__left nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #4b5d68;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper .top__left nav a:first-child {
+  color: #212353;
+  font-weight: 600;
+}
+
+.wrapper .top__left nav a:last-child {
+  margin-right: 0;
+}
+
+.wrapper .top__right .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 210px;
+  height: 60px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-width: 0;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #212353;
+  font-weight: 600;
+  -webkit-box-shadow: 0 5px 5px rgba(75, 93, 104, 0.1);
+          box-shadow: 0 5px 5px rgba(75, 93, 104, 0.1);
+  letter-spacing: 0.08px;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.wrapper header.header {
+  height: 564px;
+  width: 1248px;
+  margin-top: 130px;
+  background-image: url("../images/image1 1.png");
+  background-repeat: no-repeat;
+  background-size: 885px 468px;
+  background-position: right bottom;
+}
+
+.wrapper header.header .heading h1 {
+  width: 645px;
+  color: #212353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.wrapper header.header .description {
+  width: 380px;
+}
+
+.wrapper header.header .description p {
+  line-height: 28.8px;
+  margin-top: 50px;
+  font-weight: 500;
+  color: #4b5d68;
+}
+
+.wrapper header.header button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: #9c69e2;
+  border-width: 0;
+  border-radius: 50px;
+  outline: transparent;
+  font-weight: 500;
+  width: 170px;
+  height: 60px;
+  line-height: 28.8px;
+  margin-top: 20px;
+}
+
+.wrapper section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  width: 1117px;
+  height: 561px;
+  border-radius: 50px;
+  background-color: rgba(240, 99, 184, 0.15);
+}
+
+.wrapper section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 475px;
+}
+
+.wrapper section article h2 {
+  font-size: 40px;
+  color: #212353;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Bold.eot");
+  src: local("Avenir Next Cyr Bold"), local("AvenirNextCyr-Bold"), url("AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Bold.woff2") format("woff2"), url("AvenirNextCyr-Bold.woff") format("woff"), url("AvenirNextCyr-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-ThinItalic.eot");
+  src: local("Avenir Next Cyr Thin Italic"), local("AvenirNextCyr-ThinItalic"), url("AvenirNextCyr-ThinItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-ThinItalic.woff2") format("woff2"), url("AvenirNextCyr-ThinItalic.woff") format("woff"), url("AvenirNextCyr-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-MediumItalic.eot");
+  src: local("Avenir Next Cyr Medium Italic"), local("AvenirNextCyr-MediumItalic"), url("AvenirNextCyr-MediumItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-MediumItalic.woff2") format("woff2"), url("AvenirNextCyr-MediumItalic.woff") format("woff"), url("AvenirNextCyr-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr Ultra';
+  src: url("AvenirNextCyr-UltraLightIt.eot");
+  src: local("Avenir Next Cyr Ultra Light Italic"), local("AvenirNextCyr-UltraLightIt"), url("AvenirNextCyr-UltraLightIt.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-UltraLightIt.woff2") format("woff2"), url("AvenirNextCyr-UltraLightIt.woff") format("woff"), url("AvenirNextCyr-UltraLightIt.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Light.eot");
+  src: local("Avenir Next Cyr Light"), local("AvenirNextCyr-Light"), url("AvenirNextCyr-Light.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Light.woff2") format("woff2"), url("AvenirNextCyr-Light.woff") format("woff"), url("AvenirNextCyr-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Italic.eot");
+  src: local("Avenir Next Cyr Italic"), local("AvenirNextCyr-Italic"), url("AvenirNextCyr-Italic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Italic.woff2") format("woff2"), url("AvenirNextCyr-Italic.woff") format("woff"), url("AvenirNextCyr-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-BoldItalic.eot");
+  src: local("Avenir Next Cyr Bold Italic"), local("AvenirNextCyr-BoldItalic"), url("AvenirNextCyr-BoldItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-BoldItalic.woff2") format("woff2"), url("AvenirNextCyr-BoldItalic.woff") format("woff"), url("AvenirNextCyr-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Heavy.eot");
+  src: local("Avenir Next Cyr Heavy"), local("AvenirNextCyr-Heavy"), url("AvenirNextCyr-Heavy.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Heavy.woff2") format("woff2"), url("AvenirNextCyr-Heavy.woff") format("woff"), url("AvenirNextCyr-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-HeavyItalic.eot");
+  src: local("Avenir Next Cyr Heavy Italic"), local("AvenirNextCyr-HeavyItalic"), url("AvenirNextCyr-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-HeavyItalic.woff2") format("woff2"), url("AvenirNextCyr-HeavyItalic.woff") format("woff"), url("AvenirNextCyr-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Thin.eot");
+  src: local("Avenir Next Cyr Thin"), local("AvenirNextCyr-Thin"), url("AvenirNextCyr-Thin.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Thin.woff2") format("woff2"), url("AvenirNextCyr-Thin.woff") format("woff"), url("AvenirNextCyr-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Medium.eot");
+  src: local("Avenir Next Cyr Medium"), local("AvenirNextCyr-Medium"), url("AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Medium.woff2") format("woff2"), url("AvenirNextCyr-Medium.woff") format("woff"), url("AvenirNextCyr-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-DemiItalic.eot");
+  src: local("Avenir Next Cyr Demi Italic"), local("AvenirNextCyr-DemiItalic"), url("AvenirNextCyr-DemiItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-DemiItalic.woff2") format("woff2"), url("AvenirNextCyr-DemiItalic.woff") format("woff"), url("AvenirNextCyr-DemiItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Demi.eot");
+  src: local("Avenir Next Cyr Demi"), local("AvenirNextCyr-Demi"), url("AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Demi.woff2") format("woff2"), url("AvenirNextCyr-Demi.woff") format("woff"), url("AvenirNextCyr-Demi.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-Regular.eot");
+  src: local("Avenir Next Cyr Regular"), local("AvenirNextCyr-Regular"), url("AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-Regular.woff2") format("woff2"), url("AvenirNextCyr-Regular.woff") format("woff"), url("AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("AvenirNextCyr-LightItalic.eot");
+  src: local("Avenir Next Cyr Light Italic"), local("AvenirNextCyr-LightItalic"), url("AvenirNextCyr-LightItalic.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-LightItalic.woff2") format("woff2"), url("AvenirNextCyr-LightItalic.woff") format("woff"), url("AvenirNextCyr-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr Ultra';
+  src: url("AvenirNextCyr-UltraLight.eot");
+  src: local("Avenir Next Cyr Ultra Light"), local("AvenirNextCyr-UltraLight"), url("AvenirNextCyr-UltraLight.eot?#iefix") format("embedded-opentype"), url("AvenirNextCyr-UltraLight.woff2") format("woff2"), url("AvenirNextCyr-UltraLight.woff") format("woff"), url("AvenirNextCyr-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+html {
+  font-family: Avenir;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f6fafd), to(#ffffff));
+  background-image: linear-gradient(270deg, #f6fafd 0%, #ffffff 100%);
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #4b5d68;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  -webkit-padding-before: 0;
+          padding-block-start: 0;
+}
+/*# sourceMappingURL=reset.css.map */
