@@ -1,87 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/css/main.css"/>
     <!-- TITLE -->
     <title>Data Warehouse</title>
-  </head>
-  <!-- LAYOUT -->
-  <body>
-    <div class="wrapper">
-      <div class="top">
-        <div class="top__left">
-          <div class="logo">
-            <img class="logo__img" src="./images/Logo.png" alt="Logo" />
-          </div>
-          <nav class="nav">
-            <a class="nav__link" href="#">About</a>
-            <a class="nav__link" href="#">Help</a>
-            <a class="nav__link" href="#">Features</a>
-            <a class="nav__link" href="#">Signup</a>
-          </nav>
+</head>
+<!-- LAYOUT -->
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="top">
+            <div class="top__left">
+                <div class="logo">
+                    <img class="logo__img" src="./images/Logo.png" alt="Logo"/>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Help</a>
+                    <a class="nav__link" href="#">Features</a>
+                    <a class="nav__link" href="#">Signup</a>
+                </nav>
+            </div>
+            <div class="top__right">
+                <button class="button demo-button">
+                    Request Demo <img src="./images/icons/btn/3-layers.png" alt=""/>
+                </button>
+            </div>
         </div>
-        <div class="top__right">
-          <button class="button">
-            Request Demo <img src="./images/icons/3-layers.png" alt="" />
-          </button>
-        </div>
-      </div>
+        <section class="header-section">
+            <div class="heading">
+                <h1>Save your data storage here.</h1>
+            </div>
+            <div class="description">
+                <p>
+                    Data Warehouse is a data storage area that
+                    has been
+                    tested for security, so you can store your data
+                    here
+                    safely but not be afraid of being stolen by
+                    others.
+                </p>
+            </div>
+            <button class="button more-button">Learn more</button>
+        </section>
 
-      <header class="header">
-        <div class="heading">
-          <h1>Save your data storage here.</h1>
-        </div>
-        <div class="description">
-          <p>
-            Data Warehouse is a data storage area that <br />
-            has been <br />
-            tested for security, so you can store your data <br />
-            here <br />
-            safely but not be afraid of being stolen by <br />
-            others.
-          </p>
-        </div>
-        <button>Learn more</button>
-      </header>
+    </header>
 
-      <section class="first-section">
+    <section class="first-section">
         <div>
-          <img src="../images/image2.png" alt="" />
+            <img src="./images/image2.png" alt=""/>
         </div>
         <article>
-          <h2>
-            We are a high-level <br />
-            data <br />
-            storage bank
-          </h2>
-          <p>
-            The place to store various data that you can access at any time
-            through the internet and where you can carry it. This very flexible
-            storage area has a high level of security. To enter into your own
-            data you must enter the password that you created when you
-            registered in this Data Warehouse.
-          </p>
+            <h2>
+                We are a high-level
+                data <br/>
+                storage bank
+            </h2>
+            <p>
+                The place to store various data that you can access at any time through the internet and where you can
+                carry it.
+                This very flexible storage area has a high level of security. To enter into your own data you must enter
+                the password that you created when you registered in this Data Warehouse.
+            </p>
         </article>
-      </section>
+    </section>
 
-      <section class="second-section">
+    <section class="second-section">
         <div class="section-description">
-          <h3>Features</h3>
-          <p>
-            Some of the features and advantages that we provide for those of you
-            who store data in this Data Warehouse.
-          </p>
+            <h3>Features</h3>
+            <p>
+                Some of the features and advantages that we provide for those of you
+                who store data in this Data Warehouse.
+            </p>
         </div>
-      </section>
+        <div class="cards">
+            <div class="card search-data-card">
+                <div class="overlay-img"><img src="./images/image3.png" alt=""></div>
+                <img src="./images/Group69.svg" alt="">
+                <div class="card-info">
+                    <h4>Search Data</h4>
+                    <p>Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is
+                        useful for making it easier to find data effectively saving time.</p>
+                    <a href="">Learn more <img src="./images/icons/3-layers.png" alt=""/></a>
+                </div>
+            </div>
+            <div class="card hours-access">
+                <div class="overlay-img"><img src="./images/image4.png" alt=""></div>
+                <img src="./images/Group 70.svg" alt="">
+                <div class="card-info">
+                    <h4>24 Hours Access</h4>
+                    <p>Access is given 24 hours a full morning to night and
+                        meet again in the morning, giving you comfort when
+                        you need data when urgent.</p>
+                    <a href="">Learn more <img src="./images/icons/3-layers.png" alt=""/></a>
 
-    </div>
+                </div>
+            </div>
+            <div class="card print-out">
+                <div class="overlay-img"><img src="./images/image5 1.png" alt=""></div>
+                <img src="./images/Group 71.png" alt="">
+                <div class="card-info">
+                    <h4>Print Out</h4>
+                    <p>Print out service gives you convenience if someday
+                        you need print data, just edit it all and just print it.
+                    </p>
+                    <a href="">Learn more <img src="./images/icons/3-layers.png" alt=""/></a>
+                </div>
+            </div>
+            <div class="card security-code">
+                <div class="overlay-img"><img src="./images/image6 1.png" alt=""></div>
+                <img src="./images/Group 72.svg" alt="">
+                <div class="card-info">
+                    <h4>Security Code</h4>
+                    <p>Data Security is one of our best facilities. Allows for your files
+                        to be safer. The file can be secured with a code or password that
+                        you created, so only you can open the file.
+                    </p>
+                    <a href="">Learn more <img src="./images/icons/3-layers.png" alt=""/></a>
+                </div>
+            </div>
 
-    <!-- SCRIPTS -->
-  </body>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials__rectangle rounded">
+            <h5>Testimonials</h5>
+            <div class="comments-slider">
+                <div class="slides">
+                    <div class="slide first-card">
+                        <div class="slide__content">
+                            <div class="slide__content-left author-ava">
+                                <img src="./images/Ellipse%2076.png" alt="">
+                            </div>
+                            <div class="slide__content-right">
+                                <div class="author-name">
+                                    John Fang
+                                    <span>wordfaang.com</span>
+                                </div>
+                                <div class="author-comment">
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. <br>
+                                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
+                                        aenean
+                                        nam
+                                        laoreet nulla.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide second-card">
+                        <div class="slide__content">
+                            <div class="slide__content-left author-ava">
+                                <img src="./images/Ellipse%2076%20(1).png" alt="">
+                            </div>
+                            <div class="slide__content-right">
+                                <div class="author-name">
+                                    John Fang
+                                    <span>wordfaang.com</span>
+                                </div>
+                                <div class="author-comment">
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat
+                                        tortor
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide third-card">
+                        <div class="slide__content">
+                            <div class="slide__content-left author-ava">
+                                <img src="./images/Ellipse%2076%20(2).png" alt="">
+                            </div>
+                            <div class="slide__content-right">
+                                <div class="author-name">
+                                    John Fang
+                                    <span>wordfaang.com</span>
+                                </div>
+                                <div class="author-comment">
+                                    <p>
+                                        Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat
+                                        tortor
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="controls__dots">
+                        <div class="controls__dots-dot active"></div>
+                        <div class="controls__dots-dot"></div>
+                        <div class="controls__dots-dot"></div>
+                        <div class="controls__dots-dot"></div>
+                    </div>
+
+
+                    <div class="controls__arrows">
+                        <img class="btn previous" src="./images/icons/btn/arrow-180-long.png" alt="">
+                        <img class="btn next" src="./images/icons/btn/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- <SEPARATOR> -->
+    <div class="separator"></div>
+    <!-- <SEPARATOR /> -->
+
+    <!------ <FOOTER> ------>
+    <footer class="footer">
+
+        <section class="free">
+            <div class="free__info">
+                <h6>Try for free!</h6>
+                <p>Get limited 1 week free try our features!</p>
+            </div>
+            <div class="buttons-group">
+                <button class="button more-button">Learn more</button>
+                <button class="button demo-button">
+                    Request Demo <img src="./images/icons/btn/3-layers.png" alt=""/>
+                </button>
+            </div>
+        </section>
+
+
+        <div class="footer-main">
+            <div class="contacts-section">
+                <div class="label">
+                    <div class="label__logo">
+                        <img class="logo__img" src="./images/Logo.png" alt="Logo"/>
+                    </div>
+                    <div class="label__title">
+                        DataWarehouse
+                    </div>
+                </div>
+                <address class="contacts">
+                    <div class="contacts__address">
+                        Warehouse Society, 234 <br>
+                        Bahagia Ave Street &nbsp; PRBW 29281
+                    </div>
+                    <div class="contacts__mail contacts__tel">
+                        <a href="mailto:info@warehouse.project">info@warehouse.project</a> <br>
+                        <a href="tel:1-232-3434">1-232-3434 (Main)</a>
+                    </div>
+                </address>
+            </div>
+            <div class="navigations">
+                <nav class="nav">
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Profile</a>
+                    <a class="nav__link" href="#">Features</a>
+                    <a class="nav__link" href="#">Careers</a>
+                    <a class="nav__link" href="#">DW News</a>
+                </nav>
+
+                <nav class="nav">
+                    <a class="nav__link" href="#">Help</a>
+                    <a class="nav__link" href="#">Support</a>
+                    <a class="nav__link" href="#">Sign up</a>
+                    <a class="nav__link" href="#">Guide</a>
+                    <a class="nav__link" href="#">Reports</a>
+                    <a class="nav__link" href="#">Q&A</a>
+                </nav>
+
+                <div class="nav">
+                    <a class="nav__link" href="#">Social Media</a>
+                    <div class="row">
+                        <a class="nav__link" href="#">
+                            <img src="./images/icons/btn/f.png" alt="">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img src="./images/icons/btn/t.png" alt="">
+
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img src="./images/icons/btn/i.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bottom">
+            <div class="copyright">
+                © Datawarehouse™, 2020. All rights reserved. <br>
+                Company Registration Number: 21479524.
+            </div>
+            <div class="support">
+                <img src="./images/icons/btn/Group%2064.png" alt="">
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <!------ <FOOTER /> ------>
+</div>
+
+<!-- SCRIPTS -->
+</body>
 </html>
