@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.eot');
+    src: url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.eot') format('embedded-opentype'),
+         url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.woff2') format('woff2'),
+         url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.woff') format('woff'),
+         url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.ttf') format('truetype'),
+         url('C:/Users/azato/OneDrive/Study/std-circle/templates/Leo-Studio/fonts/MyriadPro.svg#MyriadPro') format('svg');
+}
