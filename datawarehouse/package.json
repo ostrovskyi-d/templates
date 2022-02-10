@@ -5,7 +5,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "node-normalize-scss": "^8.0.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "name": "datawarehouse",
   "version": "1.0.0",
